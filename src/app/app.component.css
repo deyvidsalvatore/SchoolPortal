@@ -30,3 +30,86 @@ mat-sidenav-container {
 .title {
   margin-bottom: 500px;
 }
+
+/* - - - - sidebar - - - - */
+
+.mat-drawer-content {
+  background-color: #efefef;
+}
+
+.sidenav {
+  width: 250px;
+  margin-top: 64px;
+}
+
+.sidenav .mat-icon {
+  margin-right: 10px; /* Ajuste para um espaçamento mais consistente */
+  font-size: 18px;
+  color: #636363;
+}
+
+.sidenav mat-toolbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 200px;
+  background-color: white;
+}
+
+.sidenav a {
+  text-decoration: none;
+  color: black;
+}
+
+.sidenav .avatar {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.sidenav .name {
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+.sidenav .designation {
+  margin-top: 2px;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.sidenav mat-nav-list {
+  padding: 8px;
+}
+
+.sidenav mat-nav-list a {
+  border-radius: 10px;
+  margin-bottom: 4px;
+  padding-top: 1px;
+  font-size: 0.9rem;
+}
+
+.sidenav .menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.sidenav .mat-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #636363;
+}
+
+
+.sidenav mat-nav-list a span {
+  padding-top: 0;
+}
+
+.sidenav mat-nav-list a:hover {
+  background-color: #e6e6e6;
+}
+
+.sidenav mat-nav-list .active {
+  background-color: #e6e6e6;
+}
