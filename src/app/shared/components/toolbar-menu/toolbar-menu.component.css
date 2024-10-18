@@ -1,6 +1,60 @@
+.logo .logo-icon {
+  margin: 10px 10px 8px -10px;
+  font-size: 18px;
+  color: #d3d3d3;
+}
+
+.title {
+  font-size: 20px;
+  color: #f0f0f0;
+}
+
+.menu-button {
+  color: #f0f0f0;
+}
+
+.menu-text {
+  color: #f0f0f0;
+  font-size: 16px;
+}
+
+.menu-icon {
+  color: #d3d3d3;
+}
+
+.menu-item .menu-icon {
+  margin-top: 5px;
+  font-size: 18px;
+  color: #d3d3d3;
+}
+
 .toolbar-menu {
   position: fixed;
   font-size: 1rem;
   top: 0;
+  color: #f0f0f0;
   z-index: 1001;
+  height: 64px;
+  background-color: #444;
+  border-bottom: 1px solid #555;
+  text-shadow: 2px 1px 3px #222;
+}
+
+.content-center {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.space-right-icon {
+  margin-right: 10px;
+  color: #d3d3d3;
+}
+
+.user-menu .user-button {
+  color: #f0f0f0;
+}
+
+.user-icon {
+  color: #d3d3d3;
 }
