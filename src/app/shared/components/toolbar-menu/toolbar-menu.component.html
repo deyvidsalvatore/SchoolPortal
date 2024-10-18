@@ -3,7 +3,9 @@
     <a href="/dashboard" mat-button class="logo">
       <mat-icon class="logo-icon" fontSet="fa" fontIcon="fa-school"></mat-icon>
       <span class="title" *ngIf="!popText">Portal Escolar</span>
-      <span class="title" *ngIf="popText">Portal Escolar - {{ menuTitle }}</span>
+      <span class="title" *ngIf="popText"
+        >Portal Escolar - {{ menuTitle }}</span
+      >
     </a>
     <div class="content-center">
       <button mat-button [matMenuTriggerFor]="beforeMenu" class="menu-button">
@@ -11,9 +13,15 @@
         <mat-icon class="menu-icon">more_vert</mat-icon>
       </button>
       <mat-menu #beforeMenu="matMenu">
-        <a href="" mat-menu-item class="menu-item">Test</a>
-        <a href="" mat-menu-item class="menu-item">Test</a>
-        <a href="" mat-menu-item class="menu-item">Test</a>
+        <a
+          *ngFor="let item of items_menu"
+          mat-menu-item
+          [routerLink]="item.link"
+          routerLinkActive="active"
+        >
+          <mat-icon fontSet="fa" [fontIcon]="item.icon"></mat-icon>
+          <span>{{ item.label }}</span>
+        </a>
       </mat-menu>
       <div class="user-menu">
         <button mat-button [matMenuTriggerFor]="menu" class="user-button">
