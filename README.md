@@ -1,27 +1,26 @@
-# SchoolPortal
+# School Portal
+[![Angular][Angular.io]][Angular-url]
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
+This is a simple mock project for practicing Angular. Feel free to use it.
 
-## Development server
+## Images
+![alt text](docs/print1.png)
+![alt text](docs/print2.png)
+![alt text](docs/print3.png)
+![alt text](docs/print4.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies Used
 
-## Code scaffolding
+- **Angular**: For building the user interface.
+- **Node.js**: For creating a simple API using `json-server`.
+- **RxJS**: For state management and asynchronous data manipulation.
+- **@ngbracket/ngx-layout**: For flexible layout
+- **Angular Material**: For responsive and accessible UI components.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
 
-## Build
+## Feel free to do whatever you want
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+But Download and Test for your own. :P

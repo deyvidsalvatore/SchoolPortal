@@ -1,0 +1,28 @@
+<div class="content mat-elevation-z4">
+  <app-toolbar-title
+    title="Usuários"
+    icon="fa-user-group">
+    <button mat-icon-button>
+      <mat-icon>share</mat-icon>
+    </button>
+  </app-toolbar-title>
+  <nav mat-tab-nav-bar ngClass="tabs" [tabPanel]="tabPanel">
+    <a mat-tab-link routerLink="/users/myProfile" routerLinkActive="active-link">
+      <mat-icon>person</mat-icon>
+      Perfil
+    </a>
+    <a mat-tab-link routerLink="/users/myDisciplines" routerLinkActive="active-link">
+      <mat-icon>play_lesson</mat-icon>
+      Disciplinas
+    </a>
+    <a mat-tab-link routerLink="/users/myConquests" routerLinkActive="active-link">
+      <mat-icon>works</mat-icon>
+      Conquistas
+    </a>
+  </nav>
+  <mat-tab-nav-panel #tabPanel>
+    <div class="container">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-tab-nav-panel>
+</div>

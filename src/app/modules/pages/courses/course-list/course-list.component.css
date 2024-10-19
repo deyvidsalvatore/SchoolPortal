@@ -1,0 +1,63 @@
+.course-form {
+  margin-bottom: 16px;
+}
+
+.form-field-category {
+  width: 100%;
+  padding-right: 0;
+
+  @media (min-width: 600px) {
+    padding-right: 10px;
+  }
+}
+
+.course-card {
+  margin-bottom: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.course-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.course-subtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.favorite-button {
+  margin-top: -32px;
+}
+
+.mat-card-actions {
+  justify-content: space-between;
+}
+
+.mat-paginator-container,
+.mat-paginator-range-label {
+  padding: 0 !important;
+}
+
+mat-card {
+  margin-bottom: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: 0.3s transform cubic-bezier(.155, 1.105, .295, 1.12),
+              0.3s box-shadow;
+}
+
+mat-card-title {
+  font-size: 20px;
+}
+
+mat-card:hover {
+  transform: scale(1.01);
+}
